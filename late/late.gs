@@ -163,7 +163,7 @@ function sendFailureEmails(startRow, endRow) {
 }
 
 function createGithubIssue(repo, title, body, assignee) {
-  var accessToken = "d7901bab600139f31f8fa0413e508cb7896a55b5"; // SUPER SECRET
+  var accessToken = "ACCESS TOKEN"; // SUPER SECRET
   var payload = {
     "title": title,
     "body": body,
